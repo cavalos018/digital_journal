@@ -17,6 +17,8 @@ const photos = [
   { src: "/images/Galena.jpg", alt: "Galena | February 2026", span: "" },
   { src: "/images/Galena_Waterfall.jpeg", alt: "Galena Waterfall | February 2026", span: "" },
   { src: "/images/Ohio_Sunset.jpg", alt: "Ohio Sunset | July 2025", span: "md:col-span-2 md:row-span-2" },
+  { src: "/images/Pizza.jpg", alt: "Pizza | December 2025", span: "" },
+  { src: "/images/MoIC.jpg", alt: "Museum of Illusions Chicago | February 2026", span: "" },
 ]
 
 export default function PhotoGallery() {
