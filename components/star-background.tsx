@@ -21,6 +21,7 @@ export default function StarBackground() {
     const generated: Star[] = []
     const count = 40
     for (let i = 0; i < count; i++) {
+      const baseOpacity = Math.random() * 0.35 + 0.25
       generated.push({
         id: i,
         x: Math.random() * 100,
@@ -28,7 +29,7 @@ export default function StarBackground() {
         size: Math.random() * 14 + 8,
         delay: Math.random() * 5,
         duration: Math.random() * 3 + 2,
-        opacity: Math.random() * 0.25 + 0.08,
+        opacity: baseOpacity,
         rotation: Math.random() * 30 - 15,
       })
     }
@@ -48,6 +49,7 @@ export default function StarBackground() {
             top: `${star.y}%`,
             rotate: `${star.rotation}deg`,
           }}
+          initial={{ opacity: star.opacity * 0.3, scale: 0.8 }}
           animate={{
             opacity: [star.opacity * 0.3, star.opacity, star.opacity * 0.3],
             scale: [0.8, 1.1, 0.8],

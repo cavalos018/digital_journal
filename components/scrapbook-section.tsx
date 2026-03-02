@@ -14,7 +14,7 @@ const quotes = [
   {
     id: 2,
     name: "Note to Self",
-    designation: "January 2026",
+    designation: "Keep going",
     content:
       "Reminder: You don't have to have it all figured out. You just have to keep going. One day at a time.",
   },

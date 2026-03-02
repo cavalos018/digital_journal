@@ -6,12 +6,17 @@ import Image from "next/image"
 import { useState } from "react"
 
 const photos = [
-  { src: "/images/gallery-1.jpg", alt: "Sunset over the city", span: "md:col-span-2 md:row-span-2" },
-  { src: "/images/gallery-2.jpg", alt: "Flower market", span: "" },
-  { src: "/images/gallery-3.jpg", alt: "Cozy cafe", span: "" },
-  { src: "/images/gallery-4.jpg", alt: "Beach at golden hour", span: "md:col-span-2" },
-  { src: "/images/gallery-5.jpg", alt: "Bookshelf nook", span: "" },
-  { src: "/images/gallery-6.jpg", alt: "Farmers market", span: "" },
+  { src: "/images/Kayaking.jpg", alt: "Kayaking | July 2025", span: "md:col-span-2 md:row-span-2" },
+  { src: "/images/catan.jpg", alt: "Catan Night | September 2025", span: "" },
+  { src: "/images/Roots.jpg", alt: "Roots | September 2025", span: "" },
+  { src: "/images/Cancun.jpg", alt: "Cancun | August 2025", span: "" },
+  { src: "/images/Flying1.jpg", alt: "Over Illinois | September 2024", span: "" },
+  { src: "/images/axe_throwing.jpg", alt: "Axe Throwing | October 2025", span: "" },
+  { src: "/images/Shoveling.jpg", alt: "Shoveling | November 2025", span: "" },
+  { src: "/images/flying2.jpg", alt: "Over Illinois | September 2024", span: "md:col-span-2" },
+  { src: "/images/Galena.jpg", alt: "Galena | February 2026", span: "" },
+  { src: "/images/Galena_Waterfall.jpeg", alt: "Galena Waterfall | February 2026", span: "" },
+  { src: "/images/Ohio_Sunset.jpg", alt: "Ohio Sunset | July 2025", span: "md:col-span-2 md:row-span-2" },
 ]
 
 export default function PhotoGallery() {
