@@ -68,7 +68,7 @@ export default function StarBackground() {
           >
             <path
               d="M12 2L14.09 8.26L20.18 8.63L15.54 12.74L17.09 18.77L12 15.27L6.91 18.77L8.46 12.74L3.82 8.63L9.91 8.26L12 2Z"
-              className="fill-primary/40 dark:fill-primary/30"
+              className="fill-primary/40"
             />
           </svg>
         </motion.div>

@@ -2,14 +2,9 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { Moon, Sun, Menu, X, BookOpen } from "lucide-react"
+import { Menu, X, BookOpen } from "lucide-react"
 
-interface HeaderProps {
-  isDark: boolean
-  toggleDarkMode: () => void
-}
-
-export default function Header({ isDark, toggleDarkMode }: HeaderProps) {
+export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const navLinks = [
@@ -54,14 +49,6 @@ export default function Header({ isDark, toggleDarkMode }: HeaderProps) {
             </nav>
 
             <div className="flex items-center gap-4">
-              <button
-                onClick={toggleDarkMode}
-                className="p-2 hover:bg-muted rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-primary"
-                aria-label={isDark ? "Switch to light mode" : "Switch to dark mode"}
-              >
-                {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
-              </button>
-
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
                 className="md:hidden p-2 hover:bg-muted rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-primary"

@@ -47,8 +47,8 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head />
       <body
-        className={`${geist.variable} ${geistMono.variable} ${greatVibes.variable} font-sans antialiased`}
         suppressHydrationWarning
+        className={`${geist.variable} ${geistMono.variable} ${greatVibes.variable} font-sans antialiased`}
       >
         {children}
         <Analytics />
