@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Mail, Instagram, Heart, Sparkles, Linkedin } from "lucide-react"
+import { Mail, Instagram, Heart, Sparkles, Linkedin, Github } from "lucide-react"
 
 export default function AboutMe() {
   const contactMethods = [
@@ -17,6 +17,13 @@ export default function AboutMe() {
       label: "LinkedIn",
       value: "@claudiaavalos/",
       href: "https://www.linkedin.com/in/claudiaavalos/",
+      color: "from-accent to-secondary",
+    },
+   {
+      icon: Github,
+      label: "GitHub",
+      value: "@cavalos018",
+      href: "https://github.com/cavalos018",
       color: "from-accent to-secondary",
     },
   ]
@@ -47,6 +54,8 @@ export default function AboutMe() {
             {"Love connecting with fellow journal keepers, travelers, and anyone who appreciates the little things in life. Don't be a stranger!"}
           </p>
         </motion.div>
+
+
 
         <motion.div
           className="flex flex-col sm:flex-row gap-6 justify-center"
@@ -87,7 +96,6 @@ export default function AboutMe() {
           viewport={{ once: true }}
           transition={{ delay: 0.5 }}
         >
-          Made with <Heart className="w-4 h-4 text-primary inline" aria-hidden="true" /> 
         </motion.p>
       </div>
     </section>

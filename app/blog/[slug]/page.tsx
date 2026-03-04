@@ -53,11 +53,11 @@ export default async function BlogPostPage({ params }: PageProps) {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <Link
-              href="/"
+              href="/blog"
               className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
             >
               <ArrowLeft className="w-4 h-4" aria-hidden="true" />
-              <span className="text-sm font-medium">Back to Journal</span>
+              <span className="text-sm font-medium">Back to Blog</span>
             </Link>
             <Link href="/" className="font-serif font-bold text-lg text-foreground">
               Claud's Journal
@@ -135,11 +135,11 @@ export default async function BlogPostPage({ params }: PageProps) {
         {/* Back link */}
         <div className="text-center py-12">
           <Link
-            href="/"
+            href="/blog"
             className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-full font-medium hover:opacity-90 transition-opacity"
           >
             <ArrowLeft className="w-4 h-4" aria-hidden="true" />
-            Back to Journal
+            Back to Blog
           </Link>
         </div>
       </article>

@@ -8,7 +8,8 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const navLinks = [
-    { href: "/#journal", label: "Journal" },
+    { href: "/", label: "Home" },
+    { href: "/blog", label: "Journal" },
     { href: "/photos", label: "Photos" },
     { href: "/travel", label: "Travel" },
     { href: "/fashion", label: "Fashion" },
