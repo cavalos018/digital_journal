@@ -12,7 +12,7 @@ export default function Header() {
     { href: "/photos", label: "Photos" },
     { href: "/travel", label: "Travel" },
     { href: "/fashion", label: "Fashion" },
-    { href: "/say-hi", label: "Say Hi" },
+    { href: "/about-me", label: "About Me" },
   ]
 
   return (

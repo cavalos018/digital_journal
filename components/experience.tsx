@@ -6,52 +6,61 @@ import { Calendar } from "lucide-react"
 export default function Experience() {
   const experiences = [
     {
-      title: "Sr. Software Engineer",
-      company: "Globant India Pvt Ltd",
-      period: "11/2020 – Present",
-      location: "Pune",
+      title: "Business Analyst",
+      company: "Premier Service",
+      period: "03/2025 – Present",
+      location: "Oak Brook, IL",
       highlights: [
-        "Leading UI/frontend team of 5 to develop interactive user interfaces",
-        "Delivered pixel-perfect UIs by converting PSD/Figma/InDesign designs",
-        "Revamped legacy products for performance and web standards compliance",
-        "Enhanced accessibility features to meet WCAG 2.2 AA guidelines",
+        "Resolves discrepancies by collecting and analyzing information.",
+        "Prepares special reports by collecting, analyzing, and summarizing information and trends.",
+        "Automated data collection through web scraping and API integration.",
       ],
     },
     {
-      title: "Sr. Web Designer",
-      company: "Markets and Markets Research Pvt. Ltd",
-      period: "05/2019 – 11/2020",
-      location: "Pune",
+      title: "Medical Research Data Entry Specialist",
+      company: "AMR Baber Research",
+      period: "05/2024 – 08/2024",
+      location: "Naperville, IL",
       highlights: [
-        "Created responsive web pages integrating PSD designs to HTML and Angular 7",
-        "Designed UIs for dynamic email templates",
-        "Restyled UI components for improved appeal and usability",
-        "Managed version control with Git",
+        "Diligently entered data with meticulous attention to detail to ensure data integrity.",
+        "Identified and resolved data related queries promptly to minimize delays.",
+        "Recruited trial subjects, collected, and analyzed data using both internal databases and referrals in accordance with study protocol.",
       ],
     },
     {
-      title: "Web Designer",
-      company: "Yardi Software India Pvt. Ltd",
-      period: "10/2017 – 05/2019",
-      location: "Pune",
+      title: "Insurance Coordinator",
+      company: "Dental Smiles",
+      period: "05/2023 – 08/2023",
+      location: "Bolingbrook, IL",
       highlights: [
-        "Executed design process for dynamic/static email templates",
-        "Integrated PSD to HTML/.NET framework",
-        "Redesigned products for modern standards and ADA compliance",
-        "Managed frontend UI for Angular 2",
+        "Used strong data entry skills to process over 50 patient records daily while performing seamless entry of private information.",
+        "Answered and directed a daily volume of 30 or more patient phone calls and messages.",
+        "Strategically scheduled patients to optimize efficiency for both the office and patient preferences.",
       ],
     },
     {
-      title: "Web Designer",
-      company: "Circl Design India Pvt. Ltd",
-      period: "04/2017 – 09/2017",
-      location: "Pune",
+      title: "Office Administrator",
+      company: "Casey Products",
+      period: "05/2022 – 08/2022",
+      location: "Woodridge, IL",
       highlights: [
-        "Developed website projects using HTML, CSS, WordPress",
-        "Created responsive layouts with Bootstrap",
-        "Implemented dynamic functions with JavaScript/jQuery",
+        "Performed meticulous review of data and its integration into the electronic data interchange (EDI) system daily for over 25 quotes and invoices to maintain data integrity.",
+        "Thoroughly reviewed colleagues’ work to identify errors and discrepancies.",
+        "Performed general office upkeep including organization, supply tracking and ordering, and filing.",
       ],
     },
+
+    {
+      title: "Administrative Assistant",
+      company: "Aurora Bright Dental",
+      period: "05/2021 – 08/2021",
+      location: "Aurora, IL",
+      highlights: [
+        "Verified insurance benefits of over 10 distinct insurance providers using internal databases.",
+        "Consistently and efficiently scheduled an average of 20 new patients on a monthly basis.",
+        "Independently oversaw administrative duties in the manager’s absence, including end of day reports.",
+      ],
+    }
   ]
 
   const containerVariants = {

@@ -1,22 +1,22 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Mail, Instagram, Heart, Sparkles } from "lucide-react"
+import { Mail, Instagram, Heart, Sparkles, Linkedin } from "lucide-react"
 
-export default function SayHi() {
+export default function AboutMe() {
   const contactMethods = [
     {
       icon: Mail,
       label: "Email",
-      value: "hello@myjournal.com",
-      href: "mailto:hello@myjournal.com",
+      value: "claudavalos18@gmail.com",
+      href: "mailto:claudavalos18@gmail.com",
       color: "from-primary to-accent",
     },
     {
-      icon: Instagram,
-      label: "Instagram",
-      value: "@myjournal",
-      href: "#",
+      icon: Linkedin,
+      label: "LinkedIn",
+      value: "@claudiaavalos/",
+      href: "https://www.linkedin.com/in/claudiaavalos/",
       color: "from-accent to-secondary",
     },
   ]
@@ -37,9 +37,9 @@ export default function SayHi() {
             <Sparkles className="w-5 h-5 text-primary" aria-hidden="true" />
           </div>
           <h2 className="text-5xl md:text-6xl mb-6 text-balance font-serif cursive-safe">
-            Say{" "}
+            About{" "}
             <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
-              Hi
+              Me
             </span>
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent rounded-full mx-auto mb-6" />
@@ -87,7 +87,7 @@ export default function SayHi() {
           viewport={{ once: true }}
           transition={{ delay: 0.5 }}
         >
-          Made with <Heart className="w-4 h-4 text-primary inline" aria-hidden="true" /> and a lot of coffee
+          Made with <Heart className="w-4 h-4 text-primary inline" aria-hidden="true" /> 
         </motion.p>
       </div>
     </section>

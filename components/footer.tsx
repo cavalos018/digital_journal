@@ -45,10 +45,10 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/say-hi"
+                  href="/about-me"
                   className="hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:rounded px-1"
                 >
-                  Say Hi
+                  About Me
                 </Link>
               </li>
             </ul>
