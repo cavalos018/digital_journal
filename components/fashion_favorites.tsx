@@ -3,31 +3,31 @@
 import { motion } from "framer-motion"
 import { Code2, Palette, Database, Zap } from "lucide-react"
 
-export default function Skills() {
+export default function fashion_favorites() {
   const skillCategories = [
     {
-      title: "Frontend",
+      title: "Colors & Patterns",
       icon: Code2,
-      skills: ["React.js", "JavaScript", "TypeScript", "HTML5", "CSS3", "Next.js"],
-      color: "from-blue-500 to-cyan-500",
+      fashion_favorites: ["Red", "Raspberry", "Polka dots", "Pinstripes"],
+      color: "from-red-500 to-pink-500",
     },
     {
-      title: "Styling",
+      title: "Fabrics",
       icon: Palette,
-      skills: ["SASS", "LESS", "Tailwind CSS", "Bootstrap 5", "Material UI", "Responsive Design"],
-      color: "from-purple-500 to-pink-500",
+      fashion_favorites: ["Cotton", "Linen", "Denim"],
+      color: "from-orange-500 to-pink-500",
     },
     {
-      title: "CMS & Tools",
+      title: "Stores",
       icon: Database,
-      skills: ["Drupal", "Git", "Figma", "InVision", "Adobe Suite", "Playwright"],
-      color: "from-orange-500 to-red-500",
+      fashion_favorites: ["Express", "J Crew", "Gap"],
+      color: "from-purple-500 to-red-500",
     },
     {
-      title: "Standards",
+      title: "Styles",
       icon: Zap,
-      skills: ["WCAG 2.2 AA", "ADA Compliance", "Web Accessibility", "Performance Optimization"],
-      color: "from-green-500 to-emerald-500",
+      fashion_favorites: ["Platform Shoes", "Ponchos", "Bat Winged Tops", "Ear Muffs"],
+      color: "from-red-500 to-emerald-500",
     },
   ]
 
@@ -52,7 +52,7 @@ export default function Skills() {
   }
 
   return (
-    <section id="skills" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-background to-secondary/10">
+    <section id="fashion_favorites" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-background to-secondary/10">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: -20 }}
@@ -62,9 +62,9 @@ export default function Skills() {
           className="mb-16"
         >
           <h2 className="text-5xl md:text-6xl font-bold mb-6 text-balance">
-            Skills &{" "}
+            Personal {" "}
             <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
-              Expertise
+              Favorites
             </span>
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent rounded-full" />
@@ -101,7 +101,7 @@ export default function Skills() {
                     </motion.div>
 
                     <ul className="space-y-3">
-                      {category.skills.map((skill, idx) => (
+                      {category.fashion_favorites.map((skill, idx) => (
                         <motion.li
                           key={skill}
                           className="text-sm text-muted-foreground flex items-center gap-2"

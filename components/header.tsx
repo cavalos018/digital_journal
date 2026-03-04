@@ -11,6 +11,7 @@ export default function Header() {
     { href: "/#journal", label: "Journal" },
     { href: "/photos", label: "Photos" },
     { href: "/travel", label: "Travel" },
+    { href: "/fashion", label: "Fashion" },
     { href: "/say-hi", label: "Say Hi" },
   ]
 
