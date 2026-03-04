@@ -71,22 +71,7 @@ export default function BlogHero() {
             />
           </motion.div>
 
-          <motion.div variants={itemVariants} className="flex flex-wrap justify-center gap-3">
-            {["Fashion", "Hobbies", "Events", "Life", "Travel"].map((tag, idx) => (
-              <motion.a
-                key={tag}
-                href="#journal"
-                className="px-5 py-2 rounded-full text-sm font-medium border transition-all bg-card/80 border-border text-foreground hover:border-primary hover:text-primary"
-                whileHover={{ scale: 1.05, y: -2 }}
-                whileTap={{ scale: 0.95 }}
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.8 + idx * 0.1 }}
-              >
-                {tag}
-              </motion.a>
-            ))}
-          </motion.div>
+          
         </motion.div>
       </section>
     </SilkBackground>

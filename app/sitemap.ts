@@ -15,8 +15,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: "https://myjournal.com/blog/summer-road-trip",
-      lastModified: new Date("2026-02-15"),
+      url: "https://myjournal.com/blog/galena-road-trip",
+      lastModified: new Date("2026-02-03"),
       changeFrequency: "monthly",
       priority: 0.8,
     },

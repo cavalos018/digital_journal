@@ -22,20 +22,7 @@ export const metadata: Metadata = {
     "travel",
     "lifestyle",
     "digital diary",
-  ],
-  openGraph: {
-    title: "Claud's Digital Journal & Scrapbook",
-    description:
-      "A personal digital journal and scrapbook — fashion, hobbies, events, life moments, and adventures.",
-    type: "website",
-    locale: "en_US",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Claud's Digital Journal & Scrapbook",
-    description:
-      "A personal digital journal and scrapbook — fashion, hobbies, events, life moments, and adventures.",
-  },
+  ]
 }
 
 export default function RootLayout({
