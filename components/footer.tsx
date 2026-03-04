@@ -21,7 +21,7 @@ export default function Footer() {
             <ul className="flex flex-col gap-2 text-sm text-muted-foreground">
               <li>
                 <Link
-                  href="/#journal"
+                  href="/blog"
                   className="hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:rounded px-1"
                 >
                   Journal
@@ -40,7 +40,15 @@ export default function Footer() {
                   href="/travel"
                   className="hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:rounded px-1"
                 >
-                  Travel Map
+                  Travel
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/fashion"
+                  className="hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:rounded px-1"
+                >
+                  Fashion
                 </Link>
               </li>
               <li>
