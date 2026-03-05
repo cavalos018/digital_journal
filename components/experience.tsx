@@ -11,9 +11,10 @@ export default function Experience() {
       period: "03/2025 – Present",
       location: "Oak Brook, IL",
       highlights: [
-        "Resolves discrepancies by collecting and analyzing information.",
-        "Prepares special reports by collecting, analyzing, and summarizing information and trends.",
-        "Automated data collection through web scraping and API integration.",
+        "Develop internal tools using HTML, CSS, and Next.js, hosted via GitHub.",
+        "Created a web-based hiring application system that digitized the paper job application process, improving HR workflow efficiency, and enabling structured applicant data collection.",
+        "Support operations leadership with ad hoc analysis and metric tracking to inform day-to-day and seasonal decision making.",
+        "Design and maintain data pipelines by pulling data from external APIs and web scraping sources to centralize operational and fleet datasets for analysis.",
       ],
     },
     {

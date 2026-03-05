@@ -35,10 +35,12 @@ const quotes = [
 ]
 
 const categories = [
-  { name: "Fashion", icon: Shirt, description: "Style finds & outfit inspo", color: "from-primary to-accent" },
-  { name: "Hobbies", icon: Heart, description: "Creative pursuits & cozy things", color: "from-secondary to-primary" },
-  { name: "Events", icon: PartyPopper, description: "Celebrations & gatherings", color: "from-accent to-primary" },
-  { name: "Travel", icon: Plane, description: "Adventures & explorations", color: "from-primary to-secondary" },
+  { name: "Journal", icon: PartyPopper, description: "Personal blog", color: "from-accent to-primary", href: "/journal" },
+  { name: "Photos", icon: Camera, description: "Captured moments", color: "from-primary to-accent", href: "/photos" },
+  { name: "Fashion", icon: Shirt, description: "Style finds & outfit inspo", color: "from-primary to-accent", href: "/fashion" },
+  { name: "Hobbies", icon: Heart, description: "Creative pursuits & cozy things", color: "from-secondary to-primary", href: "/hobbies" },
+  { name: "Memories & Travel", icon: Plane, description: "Adventures & explorations", color: "from-primary to-secondary", href: "/travel" },
+  { name: "About Me", icon: Sparkles, description: "About me", color: "from-primary to-accent", href: "/about-me" },
 ]
 
 export default function ScrapbookSection() {
@@ -98,7 +100,7 @@ export default function ScrapbookSection() {
                 return (
                   <motion.a
                     key={cat.name}
-                    href="#journal"
+                    href={cat.href ?? "#"} 
                     className="group p-5 bg-card rounded-2xl border border-border hover:border-primary/50 transition-all"
                     whileHover={{ y: -5, rotate: idx % 2 === 0 ? 1 : -1 }}
                     initial={{ opacity: 0, y: 20 }}

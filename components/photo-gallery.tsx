@@ -14,13 +14,14 @@ const photos = [
   { src: "/images/axe_throwing.jpg", alt: "Axe Throwing | October 2025", span: "" },
   { src: "/images/Shoveling.jpg", alt: "Shoveling | November 2025", span: "" },
   { src: "/images/flying2.jpg", alt: "Over Illinois | September 2024", span: "md:col-span-2" },
-  { src: "/images/Ohio_Sunset.jpg", alt: "Ohio Sunset | July 2025", span: "md:col-span-2 md:row-span-2" },
+  
+  { src: "/images/CONCACAF_Crowd.jpg", alt: "CONCACAF | July 2019", span: "md:col-span-2 md:row-span-2" },
   { src: "/images/Galena.jpg", alt: "Galena | February 2026", span: "" },
   { src: "/images/Galena_Waterfall.JPEG", alt: "Galena Waterfall | February 2026", span: "" },
   { src: "/images/Pizza.jpg", alt: "Pizza | December 2025", span: "" },
   { src: "/images/MoIC.jpg", alt: "Museum of Illusions Chicago | February 2026", span: "" },
   { src: "/images/Lily2.jpg", alt: "My baby Lily | October 2015", span: "" },
-  { src: "/images/CONCACAF_Crowd.jpg", alt: "CONCACAF | July 2019", span: "" },
+  { src: "/images/Ohio_Sunset.jpg", alt: "Ohio Sunset | July 2025", span: "" },
   { src: "/images/CONCACAF_Goalie.jpg", alt: "CONCACAF | July 2019", span: "md:col-span-2" },
   { src: "/images/Lily.jpg", alt: "Lily Corazones | July 2020", span: "md:col-span-2 md:row-span-2" },
   { src: "/images/High_School_Graduation.jpg", alt: "High School Graduation | August 2020", span: "" },
@@ -30,8 +31,10 @@ const photos = [
   { src: "/images/Sniff_Circle.jpg", alt: "Sniff Circle | April 2024", span: "" },
   { src: "/images/Vacation_Drinks.jpg", alt: "Vacation Drinks | August 2024", span: "" },
   { src: "/images/Chicago_Flowers.jpg", alt: "Chicago Flowers | July 2018", span: "md:col-span-2" },
-  { src: "/images/Halloween_2024.jpg", alt: "Pumpkin Carving | October 2024", span: "" },
+  { src: "/images/Halloween_2024.jpg", alt: "Pumpkin Carving | October 2024", span: "md:col-span-2 md:row-span-2" },  
+  { src: "/images/california_ignite_night.jpg", alt: "California | September 2025", span: "" },
   { src: "/images/HSParkingLot.jpg", alt: "HS Parking Lot | January 2020", span: "" },
+  { src: "/images/graduation2.jpg", alt: "Graduation | May 2025", span: "" },
 ]
 
 export default function PhotoGallery() {

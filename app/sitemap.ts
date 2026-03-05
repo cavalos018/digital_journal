@@ -27,7 +27,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: "https://myjournal.com/blog/birthday-party",
+      url: "https://myjournal.com/blog/ohio-wedding-trip",
       lastModified: new Date("2025-01-28"),
       changeFrequency: "monthly",
       priority: 0.8,

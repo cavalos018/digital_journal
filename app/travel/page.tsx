@@ -12,7 +12,7 @@ export default function TravelPage() {
   return (
     <SiteShell>
       <USTravelMap />
-      <WorldTravelMap />
+      {/* <WorldTravelMap /> */}
     </SiteShell>
   )
 }
