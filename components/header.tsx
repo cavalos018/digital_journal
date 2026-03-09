@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { Menu, X, BookOpen } from "lucide-react"
+import { Menu, X, BookOpen, BookHeart } from "lucide-react"
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -33,7 +33,7 @@ export default function Header() {
               className="flex items-center gap-2 focus:outline-none focus:ring-2 focus:ring-primary focus:rounded"
             >
               <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <BookOpen className="w-4 h-4 text-primary-foreground" aria-hidden="true" />
+                <BookHeart className="w-4 h-4 text-primary-foreground" aria-hidden="true" />
               </div>
               <span className="font-serif text-xl hidden sm:inline">Claud's Journal</span>
             </Link>

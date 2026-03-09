@@ -35,7 +35,7 @@ const quotes = [
 ]
 
 const categories = [
-  { name: "Journal", icon: PartyPopper, description: "Personal blog", color: "from-accent to-primary", href: "/journal" },
+  { name: "Journal", icon: PartyPopper, description: "Personal blog", color: "from-accent to-primary", href: "/blog" },
   { name: "Photos", icon: Camera, description: "Captured moments", color: "from-primary to-accent", href: "/photos" },
   { name: "Fashion", icon: Shirt, description: "Style finds & outfit inspo", color: "from-primary to-accent", href: "/fashion" },
   { name: "Hobbies", icon: Heart, description: "Creative pursuits & cozy things", color: "from-secondary to-primary", href: "/hobbies" },
